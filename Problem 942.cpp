@@ -4,7 +4,6 @@ public:
         int n=s.size();
         int max=n;
         int min=0;
-        int m=min;
         vector<int>res;
         for(int i=0; i<s.size(); i++)
         {
@@ -19,7 +18,7 @@ public:
                 n--;
             }
         } 
-        if(n==m)
+        if(n==0)
         {
             res.push_back(min);
         }
